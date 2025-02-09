@@ -1,0 +1,62 @@
+
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(45deg, #1a1a1a, #2d2d2d);
+}
+
+.login-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+}
+
+.neon-text {
+  color: #fff;
+  text-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff, 0 0 30px #00f3ff;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.futuristic-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+
+.futuristic-input:focus {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: #00f3ff;
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.3);
+  outline: none;
+}
+
+.futuristic-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.futuristic-btn {
+  background: linear-gradient(45deg, #00f3ff, #00a6ff);
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.futuristic-btn:hover {
+  background: linear-gradient(45deg, #00a6ff, #00f3ff);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 243, 255, 0.4);
+}
+
+.futuristic-btn:active {
+  transform: translateY(0);
+}

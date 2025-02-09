@@ -1,0 +1,54 @@
+
+.MuiCard-root {
+  background-color: #ffffff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+}
+
+.MuiAvatar-root {
+  border: 3px solid #1976d2;
+  transition: transform 0.3s ease;
+}
+
+.MuiAvatar-root:hover {
+  transform: scale(1.1);
+}
+
+.MuiButton-root {
+  text-transform: none;
+  transition: all 0.3s ease;
+}
+
+.MuiButton-root:hover {
+  transform: scale(1.05);
+}
+
+.MuiTypography-h5 {
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+.MuiTypography-body2 {
+  margin-bottom: 16px;
+  color: #666666;
+}
+
+.MuiTypography-body1 {
+  line-height: 1.6;
+  color: #333333;
+}
+
+@media (max-width: 600px) {
+  .MuiCard-root {
+    margin: 16px;
+    padding: 16px !important;
+  }
+  
+  .MuiButton-root {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+}
